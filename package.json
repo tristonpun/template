@@ -1,0 +1,20 @@
+{
+  "name": "aver-html",
+  "version": "1.0.0",
+  "description": "TailwindCSS Personal Portfolio Template",
+  "author": "Platol",
+  "license": "Themeforest Standard Licence",
+  "private": true,
+  "scripts": {
+    "dev": "tailwindcss -i ./source/styles/main.css -o ./source/styles/output.css --watch",
+    "build": "tailwindcss -i ./source/styles/main.css -o ./source/styles/output.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "bootstrap-grid": "^3.0.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {}
+}
