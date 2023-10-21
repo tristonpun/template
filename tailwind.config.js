@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         dark: "#18181A",
         light: "#ccc",
+        red: "#AA0000;"
       },
       fontFamily: {
         primary: ["var(--font-primary)", "serif"],
